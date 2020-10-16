@@ -1,0 +1,40 @@
+/* Menu - O menu do site para todas as páginas, terá apenas uma alteração para cada página, na qual haverá um pseudoelemento que indicará a página que o usuário se encontra.*/
+
+.menu {
+	background: #dd1527;
+	padding: 15px 0;
+}
+
+.logo-branca {
+    width: 194px;
+    height: 72px;
+}
+
+.menu-nav a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.125em;
+}
+
+.menu-nav a:hover {
+	color: #00051C;
+}
+.menu-logo {
+	margin: 0 10px;
+}
+
+.menu-nav {
+	flex: 1;
+	margin: 0 10px;
+	align-self: center;
+}
+
+.menu-nav ul {
+	float: right;
+	display: flex;
+	list-style: none;
+}
+
+.menu-nav ul li a {
+	padding: 10px;
+}

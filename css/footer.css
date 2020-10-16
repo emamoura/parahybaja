@@ -1,0 +1,27 @@
+/*Estilização do rodapé da página, o rodapé de cada página do projeto também será igual, para assim, manter uma fidalidade na página e contribuir com a usabilidade.*/
+
+.footer {
+    background: #dd1527;
+    padding: 25px 0;
+}
+
+.footer .container {
+    justify-content: space-between;
+}
+
+.footer img {
+    width: 241px;
+    height: 89px;
+}
+
+.midias-sociais img {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+
+.footer p {
+    font-size: 1.125em;
+    line-height: 1.4em;
+}

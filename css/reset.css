@@ -1,0 +1,42 @@
+/* Reset */
+
+body, h1, h2, h3, p, ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+.menu-nav a.highlight{
+    color: #00051C;
+}
+
+h1, h2 {
+	font-family: 'League Gothic Italic';
+	font-weight: 200;
+}
+
+img {
+	width: 325px;
+	height: 233px;
+}
+
+
+body {
+	font-family: Roboto, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	display: flex;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+@media (max-width: 739px) {
+	.container {
+		flex-direction: column;
+		max-width: 300px;
+	}
+}

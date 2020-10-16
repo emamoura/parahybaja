@@ -1,0 +1,31 @@
+
+.historia {
+    background-color: #00051C;
+    color: #fff;
+}
+
+.historia .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+    padding: 20px;
+}
+
+.conteudo {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: justify;
+}
+
+.conteudo h2 {
+    margin-bottom: 15px;
+}
+
+.historia .container img {
+    width: 320px;
+    height: 300px;
+}

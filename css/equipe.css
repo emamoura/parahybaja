@@ -1,0 +1,68 @@
+.areas-conhecimento, .equipe {
+    background-color: #00051C;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.areas-conhecimento h2, .fluxograma h2, .equipe h2 {
+    padding: 15px 0;
+}
+
+.areas-conhecimento img {
+    width: 453px;
+    height: 504px;
+}
+.areas-conhecimento h2::after, .equipe h2::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 2px;
+    background: #DD1527;
+    margin: 5px auto;
+}
+
+.areas-conhecimento .container, .fluxograma .container, .equipe .container {
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+
+.fluxograma {
+    background-color: #DD1527;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.fluxograma h2::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 2px;
+    background: #00051C;
+    margin: 5px auto;
+}
+
+.fluxograma img {
+    width: 600px;
+    height: 352.19px;
+}
+
+.linha-equipe {
+    max-width: 960px;
+    display: flex;
+    margin: 15px auto;
+}
+
+.equipe img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    padding: 15px 0;
+}
+
+.colaborador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

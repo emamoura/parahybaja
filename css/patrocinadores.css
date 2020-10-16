@@ -1,0 +1,46 @@
+.patrocinadores {
+    background-color: #850F22;
+    padding: 15px 0;
+}
+
+.patrocinadores h2 {
+    padding: 15px 0;
+}
+
+.patrocinadores h2::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 2px;
+    background: #00051C;
+    margin: 0 auto;
+}
+
+.patrocinadores .container {
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+   
+.linha-patrocinadores {
+    max-width: 960px;
+    display: flex;
+    margin: 15px auto;
+}
+
+.linha-patrocinadores.itens img {
+    width: 150px;
+    height: 150px;
+    margin: 10px 35px;
+}
+
+.linha-patrocinadores img {
+    width: 250px;
+    height: 128px;
+    margin: 10px 15px;
+}
+
+#transforce {
+    height: 33px;
+    align-self: center;
+}
